@@ -728,6 +728,7 @@ margin-bottom: 20px;
   height: 100%;
 
   background: rgba(0, 0, 0, 0.2);
+  transition: opacity 250ms var(--cubic);
 }
 
 .backdrop.is-hidden {
@@ -762,4 +763,5 @@ border-radius: 4px;
   border-radius: 50%;
   width: 11px;
   height: 11px;
+  cursor: pointer;
 }
